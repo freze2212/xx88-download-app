@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const mobileLeftArrow = document.getElementById(mobileLeftArrowId);
             if (mobileLeftArrow) {
                 mobileLeftArrow.addEventListener('click', function () {
-                    handleArrowClick('right');
+                    handleArrowClick('left');
                 });
             }
         }
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const mobileRightArrow = document.getElementById(mobileRightArrowId);
             if (mobileRightArrow) {
                 mobileRightArrow.addEventListener('click', function () {
-                    handleArrowClick('left');
+                    handleArrowClick('right');
                 });
             }
         }
