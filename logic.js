@@ -16,9 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { src: 'images/b2-andr.webp', alt: 'Bước 2 Android' },
         { src: 'images/b3-andr.webp', alt: 'Bước 3 Android' },
         { src: 'images/b4-andr.webp', alt: 'Bước 4 Android' },
-        { src: 'images/b5-andr.webp', alt: 'Bước 5 Android' },
-        { src: 'images/b6-andr.webp', alt: 'Bước 6 Android' },
-        { src: 'images/b7-andr.webp', alt: 'Bước 7 Android' },
     ];
 
     function initSlider(sliderId, leftArrowId, rightArrowId, steps, mobileLeftArrowId = null, mobileRightArrowId = null) {
